@@ -15,7 +15,7 @@ We improve on the widely used pseudo-log-likelihood sentence score estimation me
 ```
 git clone --recursive https://github.com/carina-kauf/better-mlm-scoring.git
 cd better-mlm-scoring
-pip install -r requirements.txt 
+pip install -r requirements.txt
 ```
 
 ## Run
@@ -34,13 +34,14 @@ Masking options are `original`, `within_word_l2r`, `within_word_mlm`, `global_l2
 If you use this work, please cite:
 
 ```tex
-@misc{kauf2023better,
-      title={A Better Way to Do Masked Language Model Scoring}, 
-      author={Carina Kauf and Anna Ivanova},
-      year={2023},
-      eprint={2305.10588},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{kauf-ivanova-2023-better,
+    title = {A Better Way to Do Masked Language Model Scoring},
+    author = {Kauf, Carina  and Ivanova, Anna},
+    booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+    year = {2023},
+    url = {https://aclanthology.org/2023.acl-short.80},
+    doi = {10.18653/v1/2023.acl-short.80},
+    pages = {925--935}
 }
 ```
 
