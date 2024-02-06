@@ -55,4 +55,4 @@ If you use this work, please cite:
 #### Branches
 * `master` : Code accompanying the paper A Better Way to Do Masked Language Model Scoring by Carina Kauf & Anna Ivanova
 * `pr-branch-into-minicons` : Code used to add the optimized masked-language modeling metric (*PLL-word-l2r*) to the [minicons](https://github.com/kanishkamisra/minicons/tree/master) library maintained by [Kanishka Misra](https://github.com/kanishkamisra).
-This repo is a wrapper around the `transformers` [library](https://huggingface.co/transformers) from HuggingFace :hugs: and supports  functionalities for **(i)** extracting word representations from contextualized word embeddings and **(ii)** scoring sequences using language model scoring techniques.
+This repo is a wrapper around the `transformers` [library](https://huggingface.co/transformers) from Hugging Face :hugs: and supports  functionalities for **(i)** extracting word representations from contextualized word embeddings and **(ii)** scoring sequences using language model scoring techniques.
